@@ -1,0 +1,182 @@
+.carrossel__titulo{
+   background: var(--branco);
+   color: var(--amarelo);
+   font-weight: 700;
+   font-size: 18px;
+   text-align: center;
+   padding: 1em 0;
+}
+
+.swiper-slide img{
+   width: 100%;
+}
+.swiper-button-prev,   
+.swiper-button-next{
+   display: none;
+}
+
+.swiper-pagination{
+   position: initial;
+   margin: 0.5em 0;
+}
+.card{
+   background:var(--branco);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+   margin:1.5em;
+   /* width: 380px; */
+   /* height: 295px; */
+}
+
+
+.card__descricao{
+   display: flex;
+   justify-content: space-between;
+   padding: 1em;
+}
+
+.descricao__titulo{
+   color:var(--amarelo);
+   font-weight: 700;
+
+}
+
+.descricao__titulo-livro{
+   font-size: 18px;
+   font-weight: 700;
+   margin: 1em 0;
+   color:var(--ZUL)
+
+
+}
+
+.card__botoes{
+   display:flex;
+   justify-content: space-between;
+}
+.botoes{
+
+   display: flex;
+}
+
+.botoes__item{
+   margin: 0 0 1em;
+}
+
+.botoes-link{
+   position: relative;
+   right: 1em;
+   bottom: 0.5em;
+   background-color: var(--amarelo);
+   text-decoration: none;
+   color: var(--branco);
+   font-weight: 700;
+   padding: 1.5em 2.2em;
+
+   
+  
+}
+
+.card__estrelas{
+   display: flex;
+   margin-bottom: 0.5rem;
+
+}
+
+.topicos{
+   background: var(--azul-desgrace);
+   text-align: center;
+   padding: 0.5em 0;
+   
+}
+
+.topicos__titulo{
+   color: var(--branco);
+   font-weight: 300;
+   font-size: 14px;
+   text-transform: uppercase;
+   margin: 1.5em 0;
+
+}
+
+.topicos__lista{
+   display: flex;
+   justify-content:center;
+   flex-wrap: wrap;
+
+}
+
+.topicos__item{
+   margin:2em 0.5em
+}
+
+.topicos__link{
+   text-decoration: none;
+   color: var(--branco);
+   font-weight: 700;
+   background-color: var(--amarelo);
+   padding: 1em;
+
+}
+
+.contato{
+   background-color: var(--branco);
+   padding: 1em;
+}
+
+.contato__titulo, .contato__paragrafo{
+   background: var(--azul-desgrace);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+ 
+}
+
+.contato__titulo{
+   font-weight: 500;
+   font-size: 18px;
+
+}
+
+.contato__paragrafo{
+   font-weight: 400;
+   margin: 1em 0;
+}
+
+
+.contato__cadastro{
+   background-color: transparent;
+   border: 1px solid var(--ZUL);
+   border-radius:24px ;
+   padding: 1em;
+   width: 90%;
+   color: var(--ZUL);
+  
+}
+
+.contato__cadastro::placeholder{
+   background: url(../img/Email.svg) no-repeat;
+   padding-left: 2.5em;
+   padding-bottom: 2em;
+
+}
+
+hr{
+   margin: 1em 0;
+
+}
+footer{
+ 
+}
+
+.rodape__titulo{
+    margin: 2em;
+    font-size: 18px;
+    margin-left:1em ;
+
+
+}
+
+
+
+  
